@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/index.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
+    <script src="/js/index.js" defer></script>
+    <title>Landingpage_LaslesVPN</title>
+</head>
+
+<body>
+    <div class="app">
+        <!-- NAVIGATION -->
+        <nav class="nav">
+        <img class="nav__logo" src="assets/nav/logo.svg" alt="">
+        <div class="nav__list">
+            <a href="#" class="nav__item">
+                <img class="nav__item-house" src="assets/nav/house.svg" alt="">
+            </a>
+            <a href="#" class="nav__item">
+                <img class="nav__item-list" src="assets/nav/list.svg" alt="">
+            </a>
+            <a href="#" class="nav__item">
+                <img class="nav__item-friends" src="assets/nav/friends.svg" alt="">
+            </a>
+            <a href="#" class="nav__item">
+                <img class="nav__item-messange" src="assets/nav/messange.svg" alt="">
+            </a>
+            <a href="#" class="nav__item">
+                <img class="nav__item-play" src="assets/nav/play.svg" alt="">
+            </a>
+            <a href="#" class="nav__item">
+                <img class="nav__item-statistics" src="assets/nav/statistic.svg" alt="">
+            </a>
+            <a href="#" class="nav__item">
+                <img class="nav__item-gears" src="assets/nav/gears.svg" alt="">
+            </a>
+            <input type="checkbox" id="toggleTheme" class="nav__toggle">
+        </div>
+        </nav>  
+        <!-- HEADER -->
+        <header class="header">
+            <h1 class="header__title">Statistics</h1>
+            <div class="header__search-form">
+                <input class="header__search" type="search" placeholder="Search">
+                
+                <button class="header__button">
+                    <img class="header__button-notification" src="assets/header/notification.svg" alt="">
+                </button>
+                
+            </div>
+            <div class="header__profile">
+                <h2 class="header__user-name">Anya</h2>
+                <img class="header__avatar" src="assets/header/name.svg" alt="">
+                <button class="header__dropdown-btn">
+                    <img class="" src="/assets/header/button.svg" alt="">
+                </button>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main class="main">
+            <div class="main__card">
+                <h3 class="card__title">Friends</h3>
+                <div class="card__options"> 
+                    <button class="card__options-btn"><img src="assets/main/options.svg" alt="Options" class="card__icon"></button> 
+                </div>
+                <p class="card__info">271 people</p>
+                <p class="card__statistics">+ 0,7%<img src="assets/main/arrow-up.svg" alt="Arrow" class="card__arrow"></p>
+            </div>
+
+            <div class="main__card">
+                <h3 class="card__title">Unique visitors</h3>
+                <div class="card__options"> 
+                    <button class="card__options-btn"><img src="assets/main/options.svg" alt="Options" class="card__icon"></button> 
+                </div>
+                <p class="card__info">69 people</p>
+                <p class="card__statistics">- 1,7%<img src="assets/main/arrow-down.svg" alt="Arrow" class="card__arrow"></p>
+            </div>
+            
+
+            <div class="main__card">
+                <h3 class="card__title">Followers</h3>
+                <div class="card__options"> 
+                    <button class="card__options-btn"><img src="assets/main/options.svg" alt="Options" class="card__icon"></button> 
+                </div>
+                <p class="card__info">288 people</p>
+                <p class="card__statistics">+ 1%<img src="assets/main/arrow-up.svg" alt="Arrow" class="card__arrow"></p>
+            </div>
+
+            <div class="card-grafic">
+                <h3 class="card-grafic__title">Audience reach</h3>
+                <p class="card-grafic__date">31/01/2020 – 06/02/2020</p>
+                <input type="checkbox" class="card-grafic__left" id="total" name="total" checked>
+                <label for="total" class="card-grafic__checkbox">Total</label>
+                <input type="checkbox" class="card-grafic__right" id="follower" name="follower">
+                <label for="follower" class="card-grafic__checkbox">Follower</label>
+                <img class="card-grafic__img" src="assets/grafic/grafic-card.svg" alt="" id="card-grafic">
+            </div>
+
+            <div class="card-chart">
+                <h3 class="card-chart__title">Reach by device</h3>
+                <img class="card-chart__img" src="assets/chart/chart.svg" alt="Reach by device graph">
+                <div class="card-chart__elements-container">
+                    <div class="card-chart__element-left"></div>
+                    <label for="desktop" class="card-chart__element-text">Desktop</label>
+                    <div class="card-chart__element-right"></div>
+                    <label for="mobile" class="card-chart__element-text">Mobile views</label>
+                </div>
+            </div>
+
+            <div class="card-gistogramm">
+                <h3 class="card-gistogramm__title">Gender / Age</h3>
+                <div class="card-gistogramm__elements-container">
+                    <div class="card-gistogramm__element-left"></div>
+                    <label for="women" class="card-gistogramm__element-text">women</label>
+                    <div class="card-gistogramm__element-right"></div>
+                    <label for="men" class="card-gistogramm__element-text">men</label>
+                </div>
+                <img class="card-gistogramm__img" src="assets/gistogramm/Group 126.svg" alt="Gender / Age graph">
+            </div>
+
+            <div class="card-statistics">
+                <h3 class="card-statistics__title">Geo</h3>
+                <div class="card-statistics__settings">
+                    <p class="card-statistics__progress--active">Counry</p>
+                    <p class="card-statistics__setting">City</p>
+                </div>
+                <ul class="card-statistics__items">
+                    <li class="card-statistics__item">
+                        <div class="card-statistics__item-title">
+                            <p class="card-statistics__country">Russia</p>
+                            <p class="card-statistics__percent-text">94%</p>
+                        </div>
+                        <div class="card-statistics__field">
+                            <div class="card-statistics__percent card-statistics__russia"></div>
+                        </div>
+                    </li>
+
+                    <li class="card-statistics__item">
+                        <div class="card-statistics__item-title">
+                            <p class="card-statistics__country">Ukraine</p>
+                            <p class="card-statistics__percent-text">0,20%</p>
+                        </div>
+                        <div class="card-statistics__field">
+                            <div class="card-statistics__percent card-statistics__ukraine"></div>
+                        </div>
+                    </li>
+
+                    <li class="card-statistics__item">
+                        <div class="card-statistics__item-title">
+                            <p class="card-statistics__country">Mongolia</p>
+                            <p class="card-statistics__percent-text">0,13%</p>
+                        </div>
+                        <div class="card-statistics__field">
+                            <div class="card-statistics__percent card-statistics__mongolia"></div>
+                        </div>
+                    </li>
+
+                    <li class="card-statistics__item">
+                        <div class="card-statistics__item-title">
+                            <p class="card-statistics__country">China</p>
+                            <p class="card-statistics__percent-text">0,26%</p>
+                        </div>
+                        <div class="card-statistics__field">
+                            <div class="card-statistics__percent card-statistics__china"></div>
+                        </div>
+                    </li>
+
+                    <li class="card-statistics__item">
+                        <div class="card-statistics__item-title">
+                            <p class="card-statistics__country">USA</p>
+                            <p class="card-statistics__percent-text">0,20%</p>
+                        </div>
+                        <div class="card-statistics__field">
+                            <div class="card-statistics__percent card-statistics__usa"></div>
+                        </div>
+                    </li>
+
+                    <li class="card-statistics__item">
+                        <div class="card-statistics__item-title">
+                            <p class="card-statistics__country">Other</p>
+                            <p class="card-statistics__percent-text">1,37%</p>
+                        </div>
+                        <div class="card-statistics__field">
+                            <div class="card-statistics__percent card-statistics__other"></div>
+                        </div>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+            </main>
+            
+    </div>
+    
+</body>
