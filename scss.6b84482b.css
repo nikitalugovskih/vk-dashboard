@@ -229,7 +229,7 @@ body.dark .card-statistics__percent-text {
   left: 5px;
   border-radius: 50%;
   transition: 0.5s;
-  background: url("/toggle.e520d45d.svg") no-repeat #7f7fd5 50%;
+  background: url("toggle.e520d45d.svg") no-repeat #7f7fd5 50%;
 }
 .nav__toggle:checked[type=checkbox]::before {
   left: 35px;
@@ -272,7 +272,7 @@ body.dark .card-statistics__percent-text {
   font-size: 0.7rem;
   line-height: 1.1em;
   color: #4f4f4f;
-  background: url("/search.73d8ac8a.svg") no-repeat #FDFDFF;
+  background: url("search.73d8ac8a.svg") no-repeat #FDFDFF;
   background-position: bottom 10px left 15px;
   border: 1px solid #ebebeb;
   border-radius: 8px;
@@ -389,14 +389,14 @@ body.dark .card-statistics__percent-text {
 }
 .card-grafic__left:checked + label {
   background-color: inherit;
-  background-image: url("/arrow-purple.c66512c6.svg");
+  background-image: url("arrow-purple.c66512c6.svg");
   background-repeat: no-repeat;
   background-position-x: 16px;
   background-position-y: 15px;
 }
 .card-grafic__right:checked + label {
   background-color: inherit;
-  background-image: url("/arrow-purple.c66512c6.svg");
+  background-image: url("arrow-purple.c66512c6.svg");
   background-repeat: no-repeat;
   background-position-x: 16px;
   background-position-y: 15px;
