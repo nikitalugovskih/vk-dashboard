@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/5cf704ef360cbb92fe0d4df5a6aadc69.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('/5cf704ef360cbb92fe0d4df5a6aadc69.eot?#iefix') format('embedded-opentype'),
+        url('/2a58fe7e435259e5281c049f84e7dd69.woff2') format('woff2'),
+        url('/5475f2e797946a1e8b6700ad183d11dc.woff') format('woff'),
+        url('/92aed65631ea5d83af4e9215dd7b5758.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*# sourceMappingURL=/stylesheet.ccbd4315.css.map */
