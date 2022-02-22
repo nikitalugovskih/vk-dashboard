@@ -1,0 +1,10 @@
+@import './config/base';
+@import './config/mixins';
+@import './config/reset';
+@import './config/variables';
+@import './config/darkTheme';
+
+
+@import './components/nav';
+@import './components/header';
+@import './components/main';
